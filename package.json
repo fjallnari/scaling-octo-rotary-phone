@@ -1,0 +1,22 @@
+{
+  "name": "scaling-octo-rotary-phone",
+  "private": true,
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "test": "bun test",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "lint:github": "oxlint --format=github"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.45.0",
+    "oxlint": "^1.60.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
